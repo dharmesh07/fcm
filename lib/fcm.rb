@@ -9,7 +9,7 @@ class FCM
   format :json
 
   # constants
-  GROUP_NOTIFICATION_BASE_URI = 'https://android.googleapis.com/gcm'
+  GROUP_NOTIFICATION_BASE_URI = 'https://fcm.googleapis.com/fcm'
 
   attr_accessor :timeout, :api_key
 
